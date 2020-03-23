@@ -1,0 +1,85 @@
+.goods-header{
+    text-align: center;
+}
+
+.goods-header p{
+    line-height: 1.875rem;
+}
+
+.goods-block4::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.goods-block4{
+    margin-top: 5rem;
+}
+
+.goods-card{
+    min-height: 350px;
+    margin: 0;
+    background-color:#fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.goods-card img{
+    margin-top: 30px;
+}
+
+.goods-card-price{
+    color: #ff5912;
+}
+.open-more{
+    text-align: center;
+    color:  #ff5912;
+    line-height: 60px;
+    font-weight: 800;
+    min-height: 60px;
+    background-color: #fff;
+
+}
+.open-more p{
+    cursor: pointer;
+}
+.best-sails{
+    margin-top: 5rem;
+    padding: 30px 20px;
+    background-color:#fff;
+
+}
+
+.best-sails-stars img{
+    max-width: 100%;
+    position: relative;
+    top: 5px;
+}
+
+.best-sails-price{
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    color: #ff7013;
+    font-weight: bold;;
+}
+.best-sails-heading{
+    font-size: 18px;
+    color: #34404b;
+    font-family: "Harmonia Sans Pro Cyr";
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.news-row{
+    min-height: 100px;
+    background-color: #fff; 
+    line-height: 100px;
+}
+.join-us {
+    padding: 15px 25px;
+    border: none;
+    color: #fff;
+    background-color: #ff7013;;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f6f8;
+    font-family: Arial,Tahoma, sans-serif;
+    color: #34404b;
+    font-size: 16px;
+}
+
+h3{ 
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+h5{
+    font-size: 18px;
+    color: #ff5912;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+
+p{
+    margin: 0;
+}
+
+.orange-txt{
+    color:  #ff5912;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.indent-up-down{
+margin: 60px auto;
+}
+.row{
+    margin: 0;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block-w15{
+    width: 12.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+.block-w20{
+    width: 17.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+.block-w25{
+    width: 22.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-w30{
+    width: 27.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-w33{
+    width: 30.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-w40{
+    width: 37.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-w50{
+    width: 47.5%;
+    float: left;
+    margin: 0 1.25%; 
+}
+
+.block-w60{
+    width: 57.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-w70{
+    width: 67.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-w75{
+    width: 72.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+.text-center {
+    text-align: center;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+
+    font-style: italic;
+}

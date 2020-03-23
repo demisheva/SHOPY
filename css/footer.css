@@ -1,0 +1,68 @@
+.footer{
+    background-color: #fff;
+    padding: 60px 0 44px 0;
+}
+.footer-block{
+    font-size: 14px;
+    line-height: 30px;
+    color: #28313b;
+    text-align: left;
+}
+.footer-nav li.active, .footer-nav li.active a{
+    color: #ff5912;
+}
+.footer-block .footer-nav a{
+    text-decoration: none;
+    color: #28313b;
+}
+.footer-block .footer-nav a:hover{
+    text-decoration: none;
+    color: #ff5912;
+}
+.footer-block-30{
+    width: 26.5%;
+    float: left;
+    margin: 0 1.25%;
+}
+.footer-block-30 img{
+    display: block;
+    margin: auto auto auto 0;
+}
+.footer-block-30 p{
+    margin-top: 20px;
+}
+.footer-block-17{
+    width: 15%;
+    float: left;  
+    margin: 0 1.25%;  
+}
+.footer-block h4{
+    font-size: 16px;
+    line-height: 30px;
+    color: #ff5912;
+    text-transform: inherit;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 600;
+}
+.payment-img{
+    width: 25px;
+    height: 17px;
+    background-image: url(../images/footer/payment_metods.png);
+    display: inline-block;
+}
+.payment-img.payment-img-amex{
+    background-position: -1px -1px;
+    }
+.payment-img.payment-img-second{
+    background-position: -37px -1px;
+}
+.payment-img.payment-img-visa{
+    background-position: -73px -1px;
+}
+.payment-img.payment-img-mastercard{
+    background-position: -108px -1px;
+}
+.payment-img.payment-img-five{
+    background-position: -144px -1px;
+}
