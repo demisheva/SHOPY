@@ -1,113 +1,97 @@
-/* ----sidebar---- */
-.categories-filter, .price-filter, .sizes-filter, .brands-filter{
-    margin: 15px 1.25%;
-    background-color:#fff;
-    padding: 40px;
-    font-weight: bold;
-}
+/* ----SIDEBAR FILTER---- */
+    .categories-filter, .price-filter, .sizes-filter, .brands-filter{
+        margin: 15px 1.25%;
+        background-color:#fff;
+        padding: 40px;
+        font-weight: bold;
+    }
+    .categories-filter h5, .price-filter h5, .sizes-filter h5, .brands-filter h5{
+        margin: 0;
+    }
+    .categories-filter ul, .price-filter ul, .sizes-filter ul, .brands-filter ul{
+        padding-inline-start: 0;
+        padding-left: 0;
+    }
+    .categories-filter ul li, .price-filter ul li, .sizes-filter ul li, .brands-filter ul li{
+        list-style: none;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        line-height: 50px;
+    }
+    ul.list-sguare li::before{
+        display: inline-block;
+        background-color: #edf0f2;
+        content: "";
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    ul.list-sguare li.active{
+        list-style: none;
+    }
+    ul.list-sguare li.active::before{
+        display: inline-block;
+        border: 4px solid #ff5912;
+        background-color: #fff;
+        content: "";
+        width: 5px;
+        height: 5px;
+        margin-right: 5px;
+    }
+    .double-slider {
+        position: relative;
+        min-height: 80px;
+    }
+    .double-slider .line-1 {
+        height: 2px;
+        background: #edf0f2;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+    }
+    .double-slider .line-2 {
+        height: 2px;
+        background: #34404b;
+        position: absolute;
+        top: 60px;
+        left: 40px;
+        right: 40px;
+    }
+    .double-slider .left-dot, .double-slider .right-dot{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        text-align: center;
+    }
+    .double-slider .dot {
+        width: 12px;
+        height: 12px;
+        background: #34404b;
+        border-radius: 100%;
+        margin: 5px auto;
+    }
+    .double-slider .right-dot {
+        right: 24px;
+        top: 31px;
+    }
+    .double-slider .left-dot {
+        left: 24px;
+        top: 31px;
+    }
+    .slider-from-to span, .slider-from-to input{
+        width: 21%;
+        margin: 2%;
+    }
+    .slider-from-to input {
+        border: none;
+        background-color: #edf0f2;
+        height: 24px;
+    }
+/* ----END SIDEBAR FILTER---- */
 
-.categories-filter h5, .price-filter h5, .sizes-filter h5, .brands-filter h5{
+.products-catalog-container{
     margin: 0;
-}
-.categories-filter ul, .price-filter ul, .sizes-filter ul, .brands-filter ul{
-    padding-inline-start: 0;
-    padding-left: 0;
-}
-.categories-filter ul li, .price-filter ul li, .sizes-filter ul li, .brands-filter ul li{
-    list-style: none;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 37px 0;
-    cursor: pointer;
-}
-ul.list-sguare li::before{
-    display: inline-block;
-    background-color: #edf0f2;
-    content: "";
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
-}
-ul.list-sguare li.active{
-    list-style: none;
-}
-ul.list-sguare li.active::before{
-    display: inline-block;
-    border: 4px solid #ff5912;
-    background-color: #fff;
-    content: "";
-    width: 5px;
-    height: 5px;
-    margin-right: 5px;
-}
-
-
-.double-slider {
-    position: relative;
-    min-height: 80px;
-}
-.double-slider .line-1 {
-    height: 2px;
-    background: #edf0f2;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-}
-.double-slider .line-2 {
-    height: 2px;
-    background: #34404b;
-    position: absolute;
-    top: 60px;
-    left: 40px;
-    right: 40px;
-}
-.double-slider .left-dot, .double-slider .right-dot{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    text-align: center;
-}
-.double-slider .dot {
-    width: 12px;
-    height: 12px;
-    background: #34404b;
-    border-radius: 100%;
-    margin: 5px auto;
-}
-.double-slider .right-dot {
-    right: 24px;
-    top: 31px;
-}
-.double-slider .left-dot {
-    left: 24px;
-    top: 31px;
-}
-.slider-from-to span, .slider-from-to input{
-    width: 21%;
-    margin: 2%;
-}
-.slider-from-to input {
-     border: none;
-    background-color: #edf0f2;
-    height: 24px;
-}
-/* ----END sidebar---- */
-
-
-
-.goods-card{
-    min-height: 350px;
-    margin: 0 1.25%;
-    background-color:#fff;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    margin: 15px 0;
-}
-.goods-card img{
-    margin-top: 30px;
-}
-.goods-card-price{
-    color: #ff5912;
+    width: 75%;
 }

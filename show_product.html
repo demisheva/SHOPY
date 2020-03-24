@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Products</title>
+    <title>Show products</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/show_products.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/show_products.css">
 </head>
 
 <body>
@@ -64,57 +64,144 @@
     </header>
 
     <!-- PRODUCT CARD -->
-    <div class="container">
-        <div class="row product-card">
-            <div class="block-w40 product-card-img-block">
-                <div class="product-img-big goods-img-max">
-                    <img id="goods-max" src="images/show_product/product-main-img.png" alt="">
+    <div class="product-card">
+        <div class="container ">
+            <div class="row ">
+                <div class="block-w40 product-card-img-block">
+                    <div class="goods-img-max">
+                        <img id="goods-max" src="images/show_product/product-main-img.png" alt="">
+                    </div>
+                    <div class="goods-img-min">
+                        <div><img class="goods-min" src="images/show_product/product_1.png" alt=""></div>
+                        <div><img class="goods-min" src="images/show_product/product_2.png" alt=""></div>
+                        <div><img class="goods-min" src="images/show_product/product_3.png" alt=""></div>
+                    </div>
                 </div>
-                <div class="product-img-min goods-img-min">
-                    <div><img class="goods-min" src="images/show_product/product_1.png" alt=""></div>
-                    <div><img class="goods-min" src="images/show_product/product_2.png" alt=""></div>
-                    <div><img class="goods-min" src="images/show_product/product_3.png" alt=""></div>
+                <div class="block-w60 product-card-discription-block">
+                    <h1>FULL WINTER KIT</h1>
+                    <p class="min-description">Half Jacket + Skiny Trousers + Boot leather</p>
+                    <p class="full-description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry
+                    </p>
+
+                    <div class="product-features-block">
+                        <div class="choose-size">
+                            Choose size:
+                            <span class="size">s</span> -
+                            <span class="size">m</span> -
+                            <span class="size active">L</span> -
+                            <span class="size ">xl</span>
+                        </div>
+                        <div class="quantity">
+                            Choose quantity:
+                            <button>+</button>
+                            <span class="active">3</span>
+                            <button>-</button>
+                        </div>
+                    </div>
+
+                    <div class="product-price-order-block">
+                        <div class="price-block">
+                            <p>Price: <span class="price">120$</span></p>
+                        </div>
+                        <div class="icons-block">
+                            <a href="#" class="share-icon"><img src="images/show_product/share-icon.png"
+                                    alt="share-icon"></a>
+                            <a href="#" class="add-to-cart-icon"><img src="images/show_product/add-to-cart-icon.png"
+                                    alt="add-to-cart-icon image"></a>
+                            <a href="#" class="like-icon"><img src="images/show_product/like-icon.png"
+                                    alt="like-icon"></a>
+                        </div>
+                        <div class="order-block">
+
+                            <button>Order now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="block-w60 product-card-discription-block">
-                <h1>FULL WINTER KIT</h1>
-                <p class="min-description">Half Jacket + Skiny Trousers + Boot leather</p>
-                <p class="full-description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                    Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry
-                </p>
+        </div>
+    </div>
 
-                <div class="product-features-block">
-                    <div class="choose-size">
-                        Choose size:
-                        <span class="size">s</span> -
-                        <span class="size">m</span> -
-                        <span class="size active">L</span> -
-                        <span class="size ">xl</span>
+    <!-- GOODS RELATED PRODUCTS-->
+    <div class="container indent-up-down">
+
+        <div class="goods-header">
+            <h3><span class="orange-txt">RELATED</span> PRODUCTS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="goods-block4">
+            <div class="block-w25">
+                <div class="goods-card">
+                    <img src="images/product-main/product-img1.png" alt="Reebok Track Jacket">
+                    <div class="goods-card-title">
+                        <p>Reebok Track Jacket</p>
                     </div>
-                    <div class="quantity">
-                        Choose quantity:
-                        <button>+</button>
-                        <span class="active">3</span>
-                        <button>-</button>
+                    <div class="goods-card-price">
+                        <p>$100</p>
                     </div>
                 </div>
-
-                <div class="product-price-order-block">
-                    <div class="price-block">
-                        <p>Price:<span class="price">120$</span></p>
+            </div>
+            <div class="block-w25">
+                <div class="goods-card">
+                    <img src="images/product-main/product-img2.png" alt="Reebok Track Jacket">
+                    <div class="goods-card-title">
+                        <p>Reebok Track Jacket</p>
                     </div>
-                    <div class="icons-block">
-                        <a href="#" class="share-icon"><img src="images/show_product/share-icon.png"
-                                alt="share-icon"></a>
-                        <a href="#" class="add-to-cart-icon"><img src="images/show_product/add-to-cart-icon.png"
-                                alt="add-to-cart-icon image"></a>
-                        <a href="#" class="like-icon"><img src="images/show_product/like-icon.png" alt="like-icon"></a>
+                    <div class="goods-card-price">
+                        <p>$100</p>
                     </div>
-                    <div class="order-block">
+                </div>
+            </div>
+            <div class="block-w25">
+                <div class="goods-card">
+                    <img src="images/product-main/product-img3.png" alt="Reebok Track Jacket">
+                    <div class="goods-card-title">
+                        <p>Reebok Track Jacket</p>
+                    </div>
+                    <div class="goods-card-price">
+                        <p>$100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block-w25">
+                <div class="goods-card">
+                    <img src="images/product-main/product-img4.png" alt="Reebok Track Jacket">
+                    <div class="goods-card-title">
+                        <p>Reebok Track Jacket</p>
+                    </div>
+                    <div class="goods-card-price">
+                        <p>$100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                        <button>Order now</button>
+    </div>
+
+    <!--NEWS LETTER -->
+    <div class="container indent-up-down">
+        <div class="row">
+            <div class=" news-row block-w100">
+                <div class="block-w60">
+                    <p><span class="orange-txt text-bold">NEWS LETTER</span> <span class="text-italic"> us now to get
+                            all
+                            news
+                            and special offers<span></span>
+                    </p>
+                </div>
+                <div class="block-w20">
+                    <div class="text-center">
+                        <p class="text-italic"> <img src="images/product-main/ico_email.png" alt=""> type your email
+                            here
+                        </p>
+                    </div>
+                </div>
+                <div class="block-w20">
+                    <div class="text-center">
+                        <button class="join-us orange">Join us</button>
                     </div>
                 </div>
             </div>

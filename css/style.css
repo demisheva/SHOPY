@@ -33,93 +33,8 @@ h5{
     font-weight: bold;
     margin: 20px 0 0 0;
 }
-
 p{
     margin: 0;
-}
-
-.orange-txt{
-    color:  #ff5912;
-}
-
-.container{
-    width: 1230px;
-    margin: auto;
-}
-
-.indent-up-down{
-margin: 60px auto;
-}
-.row{
-    margin: 0;
-}
-
-.row::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.block-w15{
-    width: 12.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-.block-w20{
-    width: 17.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-.block-w25{
-    width: 22.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-
-.block-w30{
-    width: 27.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-
-.block-w33{
-    width: 30.75%;
-    float: left;
-    margin: 0 1.25%;
-}
-
-.block-w40{
-    width: 37.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-
-.block-w50{
-    width: 47.5%;
-    float: left;
-    margin: 0 1.25%; 
-}
-
-.block-w60{
-    width: 57.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-
-.block-w70{
-    width: 67.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-
-.block-w75{
-    width: 72.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-.block-w100{
-    width: 97.5%;
-    margin: 0 1.25%;
 }
 .text-center {
     text-align: center;
@@ -128,6 +43,157 @@ margin: 60px auto;
     font-weight: bold;
 }
 .text-italic{
-
     font-style: italic;
 }
+.orange-txt{
+    color:  #ff5912;
+}
+
+
+
+/* ---GRID--- */
+    .container{
+        width: 1230px;
+        margin: auto;
+    }
+    .row{
+        margin: 0;
+    }
+    .row::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .indent-up-down{
+        margin: 60px auto;
+    }
+    .block-w15{
+        width: 12.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w20{
+        width: 17.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w25{
+        width: 22.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w30{
+        width: 27.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w33{
+        width: 30.75%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w40{
+        width: 37.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w50{
+        width: 47.5%;
+        float: left;
+        margin: 0 1.25%; 
+    }
+    .block-w60{
+        width: 57.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w70{
+        width: 67.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w75{
+        width: 72.5%;
+        float: left;
+        margin: 0 1.25%;
+    }
+    .block-w100{
+        width: 97.5%;
+        margin: 0 1.25%;
+    }
+/* ---END GRID--- */
+
+/* ---OPEN MORE--- */
+    .open-more{
+        text-align: center;
+        color:  #ff5912;
+        line-height: 60px;
+        font-weight: 800;
+        min-height: 60px;
+        background-color: #fff;
+    }
+    .open-more p{
+        cursor: pointer;
+    }
+/* ---END OPEN MORE--- */
+
+
+/* ---GOODS CARDS--- */
+    .goods-header{
+        text-align: center;
+    }
+    .goods-header p{
+        line-height: 1.875rem;
+    }
+    .goods-block4::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .goods-block4{
+        margin-top: 5rem;
+    }
+    .goods-card{
+        min-height: 370px;
+        margin: 15px 0;
+        background-color:#fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .goods-card img{
+        margin-top: 30px;
+    }
+    .goods-card-price{
+        color: #ff5912;
+    }
+/* ---END GOODS CARDS--- */
+
+
+/* ---GOODS BEST SAILS--- */
+    .best-sails{
+        margin-top: 5rem;
+        padding: 30px 20px;
+        background-color:#fff;
+    }
+
+    .best-sails-stars img{
+        max-width: 100%;
+        position: relative;
+        top: 5px;
+    }
+    .best-sails-price{
+        display: inline-block;
+        width: 45%;
+        text-align: right;
+        color: #ff7013;
+        font-weight: bold;;
+    }
+    .best-sails-heading{
+        font-size: 18px;
+        color: #34404b;
+        font-family: "Harmonia Sans Pro Cyr";
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+/* ---END GOODS BEST SAILS--- */
