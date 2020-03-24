@@ -11,6 +11,27 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/blurb.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+                minSlides: 1,
+                maxSlides: 1,
+                moveSlides: 1,
+                infiniteLoop: true,
+                shrinkItems: true,
+                mode: 'fade',
+                mode: 'vertical',
+                controls: false,
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -64,7 +85,7 @@
     </header>
 
     <!-- SLIDER -->
-    <div class="slider-on-top-bg">
+    <!-- <div class="slider-on-top-bg">
         <div class="container">
             <div class="row">
                 <div class="slider-on-top">
@@ -77,6 +98,41 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <!-- SLIDER BX -->
+    <div class="bxslider">
+        <div>
+            <img src="/images/slider/slider_1.png" />
+            <div class="bannerDetail slider-on-top">
+                <h2 class="orange-txt slider-header">FULL WINTER KIT</h2>
+                <p class="text-bold">Half Jacket + Skiny Trousers + Boot leather</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+                <p><span class="text-bold">Price 120$</span> <span class="order-now-ico">Order Now</span>
+                </p>
+            </div>
+        </div>
+        <div>
+            <img src="/images/slider/slider_1.png" />
+            <div class="bannerDetail slider-on-top">
+                <h2 class="orange-txt slider-header">FULL WINTER KIT 2</h2>
+                <p class="text-bold">Half Jacket + Skiny Trousers + Boot leather</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+                <p><span class="text-bold">Price 120$</span> <span class="order-now-ico">Order Now</span>
+                </p>
+            </div>
+        </div>
+        <div>
+            <img src="/images/slider/slider_1.png" />
+            <div class="bannerDetail slider-on-top">
+                <h2 class="orange-txt slider-header">FULL WINTER KIT 3</h2>
+                <p class="text-bold">Half Jacket + Skiny Trousers + Boot leather</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+                <p><span class="text-bold">Price 120$</span> <span class="order-now-ico">Order Now</span>
+                </p>
+            </div>
+        </div>
+
     </div>
 
     <!-- GOODS NEW ARRIVALS-->
@@ -285,6 +341,7 @@
                 </div>
 
     </footer>
+
 </body>
 
 </html>
