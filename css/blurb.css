@@ -1,17 +1,8 @@
 .block-blurb{
     min-height: 100px;
     background-color: #fff;
-    border: 1px solid #f5f5f6;
     display: inline-block;
-    float: left;
-    margin: 0 15px;
     text-align: center;
-}
-.block-blurb-left{
-    width: 670px;
-}
-.block-blurb-right{
-    width: 470px;
 }
 .block-blurb .block-sale-img{
     width: 25%;
@@ -76,4 +67,7 @@
     margin-right: 15px;
     width: 22px;
     height: 22px;
+}
+.block-blurb-left{
+    padding: 20px;
 }

@@ -43,7 +43,7 @@ p{
 }
 
 .container{
-    width: 1200px;
+    width: 1230px;
     margin: auto;
 }
 
@@ -83,7 +83,7 @@ margin: 60px auto;
 }
 
 .block-w33{
-    width: 30.5%;
+    width: 30.75%;
     float: left;
     margin: 0 1.25%;
 }
@@ -115,6 +115,10 @@ margin: 60px auto;
 .block-w75{
     width: 72.5%;
     float: left;
+    margin: 0 1.25%;
+}
+.block-w100{
+    width: 97.5%;
     margin: 0 1.25%;
 }
 .text-center {

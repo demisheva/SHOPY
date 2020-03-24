@@ -81,5 +81,6 @@
     padding: 15px 25px;
     border: none;
     color: #fff;
-    background-color: #ff7013;;
+    background-color: #ff7013;
+    cursor: pointer;
 }
