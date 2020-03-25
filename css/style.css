@@ -53,7 +53,7 @@ p{
 
 /* ---GRID--- */
     .container{
-        width: 1230px;
+        max-width: 1230px;
         margin: auto;
     }
     .row{
@@ -67,7 +67,7 @@ p{
     .indent-up-down{
         margin: 60px auto;
     }
-    .block-w15{
+    /* .block-w15{
         width: 12.5%;
         float: left;
         margin: 0 1.25%;
@@ -120,7 +120,59 @@ p{
     .block-w100{
         width: 97.5%;
         margin: 0 1.25%;
+    } */
+
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4,.col-lg-5, .col-lg-6,.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+        margin: 0 1.25%;
     }
+    
+    .col-lg-1 {
+        width: 5.83333%;
+    }
+    /* block-w15,.block-w20  */
+    .col-lg-2 {
+       width: 14.16666%; 
+    }
+    /* block-w25 */
+    .col-lg-3 {
+        width: 22.5%; 
+    }
+    /* .block-w33,.block-w30  */
+    .col-lg-4 {
+        width:30.83333%; 
+    }
+    /* block-w40 */
+    .col-lg-5{
+        width: 37.5%;
+    }
+    /* block-w50 */
+    .col-lg-6 {
+        width:47.5%; 
+    }
+    /* block-w60 */
+    .col-lg-7{
+        width:57.5%;
+    }
+    /* .block-w70 */
+    .col-lg-8 {
+        width:64.16667%; 
+     }
+     /* block-w75 */
+     .col-lg-9{
+        width: 72.5%;
+    }
+    .col-lg-10 {
+        width:80.83334%; 
+    }
+    .col-lg-11 {
+        width:89.16667%; 
+    }
+    /* .block-w100 */
+    .col-lg-12 { 
+        width:97.5%; 
+    }
+
 /* ---END GRID--- */
 
 /* ---OPEN MORE--- */
@@ -198,3 +250,59 @@ p{
     }
 /* ---END GOODS BEST SAILS--- */
 
+/* ----------- mobile 768 px -------------------- */
+
+@media screen and (max-width:768px){
+    .block-1170,
+    .block-900,
+    .block-770,
+    .block-670,
+    .block-570,
+    .block-370,
+    .block-300,
+    .block-270,
+    .block-170 {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+    }
+  
+
+    .md-1,
+    .md-2, 
+    .md-3,
+    .md-4,
+    .md-6,
+    .md-8,
+    .md-10,
+    .md-12 {
+        float: left;
+        margin: 0 1.25%;
+    }
+
+    .md-1 {
+        width: 5.833333%;
+    }
+    .md-2 {
+       width: 14.16666%; 
+    }
+    .md-3 {
+        width: 22.5%; 
+    }
+    .md-4 {
+        width:30.83333333%; 
+    }
+    .md-6 {
+        width:47.5%; 
+    }
+    .md-8 {
+        width:64.166667%; 
+     }
+    .md-10 {
+        width:80.83334%; 
+    }
+    .md-12 {
+        width:97.5%; 
+    }
+}
