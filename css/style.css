@@ -1,6 +1,9 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 0;
 }
 
 html,body{
@@ -165,11 +168,17 @@ p{
         padding: 30px 20px;
         background-color:#fff;
     }
-
+    .best-sails-img img{
+        max-width: 100%;
+    }
     .best-sails-stars img{
         max-width: 100%;
         position: relative;
         top: 5px;
+    }
+    .best-sails-price,.best-sails-stars{
+        display: inline-block;
+        width: 45%;
     }
     .best-sails-price{
         display: inline-block;
@@ -187,59 +196,4 @@ p{
     }
 /* ---END GOODS BEST SAILS--- */
 
-/* ----------- mobile 768 px -------------------- */
 
-@media screen and (max-width:768px){
-    .block-1170,
-    .block-900,
-    .block-770,
-    .block-670,
-    .block-570,
-    .block-370,
-    .block-300,
-    .block-270,
-    .block-170 {
-        width: auto;
-        min-height: auto;
-        float: none;
-        margin: 0;
-    }
-  
-
-    .md-1,
-    .md-2, 
-    .md-3,
-    .md-4,
-    .md-6,
-    .md-8,
-    .md-10,
-    .md-12 {
-        float: left;
-        margin: 0 1.25%;
-    }
-
-    .md-1 {
-        width: 5.833333%;
-    }
-    .md-2 {
-       width: 14.16666%; 
-    }
-    .md-3 {
-        width: 22.5%; 
-    }
-    .md-4 {
-        width:30.83333333%; 
-    }
-    .md-6 {
-        width:47.5%; 
-    }
-    .md-8 {
-        width:64.166667%; 
-     }
-    .md-10 {
-        width:80.83334%; 
-    }
-    .md-12 {
-        width:97.5%; 
-    }
-}

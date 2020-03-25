@@ -33,7 +33,7 @@
 }
 .bx-wrapper img{
     width: 100%;
-    height: 650px;
+    max-height: 650px;
     overflow: hidden;
 }
 .bx-controls.bx-has-pager{

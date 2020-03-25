@@ -4,14 +4,10 @@
     display: inline-block;
     text-align: center;
 }
-.block-blurb .block-sale-img{
-    width: 25%;
-    float: left;
-}
+
 .block-blurb .sale-img{
     background-image: url(../images/blurb-block/sale_img.png);
     height: 80px;
-    width: 80px;
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff;
@@ -28,7 +24,6 @@
     font-weight: 800;
 }
 .block-blurb .sale-txt{
-    width: 50%;
     float: left;
     padding: 0 15px;
     min-height: 100px;
@@ -38,11 +33,11 @@
     content: "";
     display: block;
     width: 1px;
-    height: 45px;
+    height: 60%;
     background-color: #f5f5f6;
     position: absolute;
     right: 10px;
-    top: 27px;
+    top: 20%;
 }
 
 .block-blurb .sale-txt p {
@@ -51,7 +46,6 @@
     color: #495662;
 }
 .block-blurb .sale-price{
-    width: 21%;
     float: left;
     min-height: 100px;
     margin: 0 2%;
