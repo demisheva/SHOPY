@@ -54,6 +54,12 @@
         float: none;
         margin: auto;
     }
+    .col-md-indent-up-down{
+        margin: 10px auto;
+    }
+    .indent-up-down {
+        margin: 30px auto;
+    }
     .header-line {
         min-height: 30px;
     }
@@ -75,14 +81,8 @@
     .slider-on-top p {
         margin: 5px 0;
     }
-    .indent-up-down {
-        margin: 30px auto;
-    }
     .bannerDetail {
-        color: #000;
-        top: 5%;
         left: 15%;
-        position: absolute;
     }
     .bx-controls.bx-has-pager{
         left: 5%;
@@ -94,6 +94,14 @@
 
 /* -----MEDIA SMALL (max-width:576px)----- */
 @media screen and (max-width:576px){
+    .container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .indent-up-down {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4,.col-sm-5, .col-sm-6,.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
         margin: 0 1.25%;
@@ -141,6 +149,31 @@
     }
     .col-sm-indent-up-down{
         margin: 10px auto;
+    }
+    .slider-header {
+        font-size: 20px;
+    }
+    .slider-on-top p {
+        font-size: 14px;
+    }
+    .bannerDetail {
+        top: 5%;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a,.bx-wrapper .bx-pager.bx-default-pager a.active {
+       height: 10px;
+    }
+    .bx-controls.bx-has-pager{
+        left: 5%;
+    }
+    .social-btns a {
+        margin-top: 25px;
+    }
+    .goods-block4 {
+        margin-top: 10px;
+    }
+    .block-blurb .sale-price {
+        min-height: 24px;
+        line-height: 50px;
     }
     .footer-logo img {
         margin: auto;
