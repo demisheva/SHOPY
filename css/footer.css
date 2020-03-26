@@ -31,23 +31,14 @@
     text-decoration: none;
     color: #ff5912;
 }
-.footer-block-30{
-    width: 26.5%;
-    float: left;
-    margin: 0 1.25%;
-}
-.footer-block-30 img{
+.footer-logo img{
     display: block;
     margin: auto auto auto 0;
 }
-.footer-block-30 p{
+.footer-logo p{
     margin-top: 20px;
 }
-.footer-block-17{
-    width: 15%;
-    float: left;  
-    margin: 0 1.25%;  
-}
+
 .footer-block h4{
     font-size: 16px;
     line-height: 30px;

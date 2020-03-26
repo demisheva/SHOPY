@@ -50,6 +50,10 @@
     .col-md-12 { 
         width:97.5%; 
     }
+    .col-md-center{
+        float: none;
+        margin: auto;
+    }
     .header-line {
         min-height: 30px;
     }
@@ -65,6 +69,25 @@
     .header-main .container .row, .header-main .container .row nav  {
         padding: 15px 0;
     }
+    .slider-header {
+        font-size: 24px;
+    }
+    .slider-on-top p {
+        margin: 5px 0;
+    }
+    .indent-up-down {
+        margin: 30px auto;
+    }
+    .bannerDetail {
+        color: #000;
+        top: 5%;
+        left: 15%;
+        position: absolute;
+    }
+    .bx-controls.bx-has-pager{
+        left: 5%;
+    }
+
 }
 
 
@@ -110,5 +133,22 @@
     }
     .col-sm-12 { 
         width:97.5%; 
+    }
+    .col-sm-center{
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .col-sm-indent-up-down{
+        margin: 10px auto;
+    }
+    .footer-logo img {
+        margin: auto;
+    }
+    .payment-block{
+        clear: both; 
+    }
+    .payment-block h4{
+        text-align: center;
     }
 }

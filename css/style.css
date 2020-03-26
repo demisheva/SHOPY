@@ -4,6 +4,7 @@
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding: 0;
+    
 }
 
 html,body{
@@ -143,7 +144,7 @@ p{
         clear: both;
     }
     .goods-block4{
-        margin-top: 5rem;
+        margin-top: 60px;
     }
     .goods-card{
         min-height: 370px;
@@ -170,6 +171,8 @@ p{
     }
     .best-sails-img img{
         max-width: 100%;
+        margin: auto;
+        display: block;
     }
     .best-sails-stars img{
         max-width: 100%;
