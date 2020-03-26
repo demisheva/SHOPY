@@ -88,6 +88,12 @@
         left: 5%;
     }
 
+    .categories-filter, .price-filter, .sizes-filter, .brands-filter {
+        padding: 5px;
+    }
+    .categories-filter ul li, .price-filter ul li, .sizes-filter ul li, .brands-filter ul li {
+        line-height: 30px;
+    }
 }
 
 
