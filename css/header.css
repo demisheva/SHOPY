@@ -11,8 +11,11 @@
 .header-main .container .row{
     padding: 40px 0;
 }
-.header-main .logo-main img{
+.header-main .logo-main img, .logo-md-sm img{
     max-width: 100%;
+}
+.logo-md-sm{
+    display: none;
 }
 nav.nav ul li{
     display: inline-block;
@@ -31,9 +34,15 @@ nav.nav ul li a:hover{
 .footer-nav li.active, .footer-nav li.active a, nav.nav ul li.active, nav.nav ul li.active a{
     color: #ff5912;
 }
+#burger-btn, .menu-burger {
+    display: none;
+    width: 100%;
+  }
+#burger-btn:focus {
+    outline:none;
+}
 a.search, a.user, a.cart{
-    width: 25%;
-    margin: 0 2.5%;
+    width: 30.5%;
     display: inline-block;
 }
 a.search img, a.user img, a.cart img{
@@ -50,7 +59,7 @@ span.cart-count{
     position: absolute;
     width: 18px;
     top: -16px;
-    left: 30%;
+    right: 30%;
     height: 18px;
     color: #fff;
     font-size: 12px;

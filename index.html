@@ -31,6 +31,18 @@
                 controls: false,
             });
         });
+        $(document).ready(function () {
+            let burgerBtn = document.getElementById("burger-btn");
+            let menuBurger = document.getElementById("menu-burger");
+            function showBurgerMenu() {
+                if (menuBurger.style.display === "block") {
+                    menuBurger.style.display = "none";
+                } else {
+                    menuBurger.style.display = "block";
+                }
+            };
+            burgerBtn.onclick = showBurgerMenu;
+        })
     </script>
 
     <link rel="stylesheet" href="css/slider.css">
@@ -67,7 +79,7 @@
                     <div class="col-lg-2 col-md-12 logo-main">
                         <a href="#"><img src="images/header/logo-main.png" alt="Shopy logo"></a>
                     </div>
-                    <nav class="nav col-lg-8 col-md-12">
+                    <nav class="col-lg-8 col-md-12 nav">
                         <ul>
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="#">Products</a></li>
@@ -76,7 +88,7 @@
                             <li><a href="#">Contacts</a></li>
                         </ul>
                     </nav>
-                    <div class="col-lg-2 col-md-4 col-md-center">
+                    <div class="col-lg-2 serch-user-csrt-block">
                         <a href="#" class="search"><img src="images/header/search-img.png" alt="search"></a>
                         <a href="#" class="user"><img src="images/header/user-img.png" alt="user image"></a>
                         <a href="#" class="cart"><img src="images/header/CartIcoActive.png" alt="catr"><span
@@ -84,6 +96,32 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="col-md-12 logo-md-sm">
+            <a href="#"><img src="images/header/logo-main.png" alt="Shopy logo"></a>
+        </div>
+        <button class="orange-btn" id="burger-btn">Menu</button>
+        <div class="container menu-burger " id="menu-burger">
+            <div class="row">
+                <div class="col-md-12 serch-user-cart-block">
+                    <a href="#" class="search"><img src="images/header/search-img.png" alt="search"></a>
+                    <a href="#" class="user"><img src="images/header/user-img.png" alt="user image"></a>
+                    <a href="#" class="cart"><img src="images/header/CartIcoActive.png" alt="catr"><span
+                            class="cart-count">6</span></a>
+                </div>
+                <nav class="col-md-12 nav">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Hot deals</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
         </div>
     </header>
 

@@ -52,8 +52,20 @@ p{
 .orange-txt{
     color:  #ff5912;
 }
+.clearfix{
+    clear: both;
+}
+.orange-btn{
+    padding: 15px 25px;
+    border: none;
+    color: #fff;
+    background-color: #ff7013;
+    cursor: pointer;
+}
 
-
+    #burger-btn:hover,.join-us:hover,.orange-btn:hover{
+        color: #000;
+    }
 
 /* ---GRID--- */
     .container{
