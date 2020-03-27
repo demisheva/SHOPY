@@ -74,6 +74,9 @@
         display: block;
         padding: 10px 0;
     }
+    .burger-menu-show{
+        display: block;
+    }
     #burger-btn, .logo-md-sm {
         display: block;
       }
