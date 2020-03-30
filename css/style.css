@@ -63,8 +63,8 @@ p{
     cursor: pointer;
 }
 
-    #burger-btn:hover,.join-us:hover,.orange-btn:hover{
-        color: #000;
+    button:focus,#burger-btn:focus,.join-us:focus,.orange-btn:focus, #burger-filter-btn:focus{
+        outline:none;
     }
 
 /* ---GRID--- */

@@ -1,4 +1,7 @@
 /* ----SIDEBAR FILTER---- */
+    .sidebar-md-sm{
+        display: none;
+    }
     .categories-filter, .price-filter, .sizes-filter, .brands-filter{
         margin: 15px 1.25%;
         background-color:#fff;
@@ -88,6 +91,11 @@
         border: none;
         background-color: #edf0f2;
         height: 24px;
+    }
+
+    #burger-filter-btn{
+        display: none;
+        width: 100%;
     }
 /* ----END SIDEBAR FILTER---- */
 

@@ -74,7 +74,7 @@
         display: block;
         padding: 10px 0;
     }
-    .burger-menu-show{
+    .burger-menu-show, .burger-filter-show{
         display: block;
     }
     #burger-btn, .logo-md-sm {
@@ -123,6 +123,21 @@
     }
     .categories-filter ul li, .price-filter ul li, .sizes-filter ul li, .brands-filter ul li {
         line-height: 30px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .sidebar, .sidebar-md-sm{
+        background-color: #fff;
+    }
+    .slider-from-to span, .slider-from-to input {
+        width: 50%;
+        display: block;
+        float: left;
+        margin: 5px 0;
+    }
+    #burger-filter-btn{
+        display: block;
     }
 }
 
@@ -216,5 +231,8 @@
     }
     .payment-block h4{
         text-align: center;
+    }
+    #burger-filter-btn{
+        display: block;
     }
 }
