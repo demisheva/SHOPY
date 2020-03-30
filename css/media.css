@@ -92,7 +92,6 @@
         font-size: 16px;
         line-height: 30px;
     }
-
     .contacts-block ul li {
         line-height: 30px;
     }
@@ -138,6 +137,18 @@
     }
     #burger-filter-btn{
         display: block;
+    }
+    .product-features-block .quantity {
+        text-align: left;
+    }
+    .product-features-block .quantity,.product-features-block .choose-size {
+        padding: 10px 0;
+    }
+    .product-price-order-block, .product-features-block {
+        padding: 10px 0;
+    }
+    .product-card{
+        padding-top: 20px;
     }
 }
 

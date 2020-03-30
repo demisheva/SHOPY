@@ -59,8 +59,6 @@
     }
 
     .product-features-block .choose-size {
-        width: 50%;
-        float: left;
         text-align: left;
     }
 
@@ -70,8 +68,6 @@
     }
 
     .product-features-block .quantity {
-        width: 50%;
-        float: left;
         text-align: right;
     }
 
@@ -89,15 +85,6 @@
         display: inline-block;
         padding: 0 1%;
         line-height: 49px;
-    }
-    .product-price-order-block .price-block{
-        width: 58%;
-    }
-    .product-price-order-block .icons-block{
-        width: 20%;
-    }
-    .product-price-order-block .order-block{
-        width: 20%;
     }
     .product-price-order-block .price-block{
         font-size: 20px;
